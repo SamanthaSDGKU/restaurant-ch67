@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="site-init">
+        <div class="navigation-bar">
+            <div>
+                <h1>Lorem</h1>
+            </div>
+            <nav class="menu">
+                <a class="link-selected" href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="togo.html">To go</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="form-flex">
+            <div>
+                <img src="salad.png" alt="">
+            </div>
+            <div class="form-container">
+                <h2>Product title</h2>
+                <form>
+                    <div class="input-container">
+                        <label>Size</label>
+                        <select>
+                            <option value="s">Small</option>
+                            <option value="m">Medium</option>
+                            <option value="l">Large</option>
+                        </select>
+                    </div>
+                    <div class="input-container">
+                        <label>Price:</label>
+                        <input type="number">
+                    </div>
+                    <div class="input-container">
+                        <label>Quantity:</label>
+                        <input type="number">
+                    </div>
+                    <div class="input-container">
+                        <label>Description:</label>
+                        <textarea></textarea>
+                    </div>
+
+                    <button class="btn">Add</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
